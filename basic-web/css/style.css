@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.highlighted {
+    font-weight: 900;
+    color: #ffff00;
+}
+
+.hero {
+    background-color: tomato;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 30%;
+}
